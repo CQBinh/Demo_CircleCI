@@ -5,6 +5,8 @@ gem 'rails', '4.2.3'
 gem 'mysql2', '~> 0.3.20'
 # code analysis
 gem 'rubocop', require: false
+# comment rubocop directly on pull request
+gem 'saddler'
 
 group :development, :test do
   gem 'byebug'

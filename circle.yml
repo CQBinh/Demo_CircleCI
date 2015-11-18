@@ -5,8 +5,11 @@ machine:
 
   environment:
     CIRCLE_ENV: test
+    GITHUB_ACCESS_TOKEN: ae0cbf561ef3600870724e09d3e350306d457606
 
 test:
+  pre:
+    - bin/run-rubocop.sh
   post:
     # - bundle exec rspec spec
     # - rubocop
