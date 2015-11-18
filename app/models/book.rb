@@ -6,4 +6,8 @@ class Book < ActiveRecord::Base
   def un_use_variable
   	bar = 1
   end
+
+  def another_error
+    baz = 2
+  end
 end
