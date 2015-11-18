@@ -11,7 +11,7 @@ test:
     - chmod +x bin/run-rubocop.sh
     - bin/run-rubocop.sh
   post:
-    - rubocop
+    - bundle exec rubocop
 # deployment:
 #   staging:
 #     branch: develop
