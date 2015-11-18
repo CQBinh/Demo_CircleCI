@@ -10,8 +10,8 @@ test:
   pre:
     - chmod +x bin/run-rubocop.sh
     - bin/run-rubocop.sh
-  post:
-    - bundle exec rubocop
+  # post:
+  #   - bundle exec rubocop
 # deployment:
 #   staging:
 #     branch: develop
