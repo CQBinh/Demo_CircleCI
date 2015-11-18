@@ -7,9 +7,11 @@ machine:
     CIRCLE_ENV: test
 
 test:
-  post:
-    # - bundle exec rspec spec
-    # - rubocop
+  pre:
+    - chmod +x bin/run-rubocop.sh
+    - bin/run-rubocop.sh
+  # post:
+  #   - bundle exec rubocop
 # deployment:
 #   staging:
 #     branch: develop

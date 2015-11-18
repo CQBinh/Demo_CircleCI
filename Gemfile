@@ -3,8 +3,12 @@ ruby '2.2.3'
 
 gem 'rails', '4.2.3'
 gem 'mysql2', '~> 0.3.20'
-# code analysis
-gem 'rubocop', require: false
+
+gem 'rubocop'
+# comment rubocop directly on pull request
+gem 'saddler'
+gem 'saddler-reporter-github'
+gem 'rubocop-checkstyle_formatter'
 
 group :development, :test do
   gem 'byebug'
