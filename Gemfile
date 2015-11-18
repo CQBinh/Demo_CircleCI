@@ -6,7 +6,6 @@ gem 'mysql2', '~> 0.3.20'
 # code analysis
 gem 'rubocop', require: false
 
-
 group :development, :test do
   gem 'byebug'
   # testing
