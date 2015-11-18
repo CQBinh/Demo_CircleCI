@@ -1,0 +1,12 @@
+AllCops:
+  RunRailsCops: true
+
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+    - 'Procfile'
+
+Documentation:
+  Enabled: false

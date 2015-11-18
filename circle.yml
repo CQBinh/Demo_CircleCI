@@ -1,0 +1,22 @@
+machine:
+  ruby:
+    version:
+      2.2.3
+
+  environment:
+    CIRCLE_ENV: test
+
+test:
+  post:
+    # - bundle exec rspec spec
+    # - rubocop
+# deployment:
+#   staging:
+#     branch: develop
+#     heroku:
+#       appname: ims-staging
+#
+#   production:
+#     branch: master
+#     heroku:
+#       appname: ims
