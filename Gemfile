@@ -8,6 +8,7 @@ gem 'rubocop', require: false
 # comment rubocop directly on pull request
 gem 'saddler'
 gem 'saddler-reporter-github'
+gem 'rubocop-checkstyle_formatter'
 
 group :development, :test do
   gem 'byebug'
