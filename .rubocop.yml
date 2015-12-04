@@ -9,6 +9,9 @@ AllCops:
     - 'Procfile'
     - 'bin/*'
     - 'vendor/**/*'
+    - '**/**/*.html'
+    - '**/**/*.css'
+    - '**/**/*.js'
 
 Documentation:
   Enabled: false
