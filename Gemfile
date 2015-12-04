@@ -16,6 +16,8 @@ group :development, :test do
   gem 'rspec-rails'
   # error displaying supporter
   gem 'awesome_print'
+  # linter for javascript
+  gem 'jshint'
 end
 
 group :development do
