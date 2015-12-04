@@ -10,6 +10,7 @@ test:
   pre:
     - chmod +x bin/run-rubocop.sh
     - bin/run-rubocop.sh
+    - bundle exec rake jshint
   # post:
   #   - bundle exec rubocop
 # deployment:
